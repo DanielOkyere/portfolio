@@ -13,6 +13,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6M7VRN9ND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z6M7VRN9ND');
+</script>
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -109,17 +118,17 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                   
+                  
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
+                            <span>MERN Stack</span>
                             <span>80%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
-                    <div class="bars">
+                    <!-- <div class="bars">
                         <div class="info">
                             <span>CSS</span>
                             <span>60%</span>
@@ -132,7 +141,7 @@
                             <span>70%</span>
                         </div>
                         <div class="line js"></div>
-                    </div>
+                    </div> -->
                     <div class="bars">
                         <div class="info">
                             <span>DevOps</span>
@@ -140,13 +149,13 @@
                         </div>
                         <div class="line js"></div>
                     </div>
-                    <div class="bars">
+                    <!-- <div class="bars">
                         <div class="info">
                             <span>MySql</span>
                             <span>50%</span>
                         </div>
                         <div class="line mysql"></div>
-                    </div>
+                    </div> -->
                     <div class="bars">
                         <div class="info">
                             <span>Linux Administration</span>
@@ -178,6 +187,7 @@
     </section>
 
     <!-- contact section start -->
+    
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
@@ -218,7 +228,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form id="contactForm" action="" onsubmit="" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -241,6 +251,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- footer section start -->
     <footer>
